@@ -1,0 +1,11 @@
+:root {
+  --text-color: black;
+  --bg-color: white;
+
+  --primary-font: "Gotham", sans-serif;
+
+  --main-text-color: black;
+  --headline-size: 3rem;
+  --subheadline-size: 2rem;
+  --breadtext-size: 1rem;
+}
