@@ -2,10 +2,31 @@
   --text-color: black;
   --bg-color: white;
 
-  --primary-font: "Gotham", sans-serif;
-
   --main-text-color: black;
+  --headline-font: Gotham-bold;
+  --subheadline-font: Gotham-medium;
+  --breadtext-font: Gotham-light;
   --headline-size: 3rem;
   --subheadline-size: 2rem;
   --breadtext-size: 1rem;
+}
+
+@font-face {
+  font-family: Gotham-bold;
+  src: url(/Gotham-Font/GothamBold.ttf);
+}
+
+@font-face {
+  font-family: Gotham-book;
+  src: url(/Gotham-Font/GothamBook.ttf);
+}
+
+@font-face {
+  font-family: Gotham-light;
+  src: url(/Gotham-Font/GothamLight.ttf);
+}
+
+@font-face {
+  font-family: Gotham-medium;
+  src: url(/Gotham-Font/GothamMedium.ttf);
 }
